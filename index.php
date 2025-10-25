@@ -1,7 +1,7 @@
 <?php
 
-$domain = 'http://localhost/travel2saudara.web.id/';
-// $domain = 'https://travel2saudara.web.id/';
+// $domain = 'http://localhost/travel2saudara.web.id/';
+$domain = 'https://travel2saudara.web.id/';
 $brand = 'Travel 2 Bersaudara';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.jpg';
