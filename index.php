@@ -1,18 +1,18 @@
 <?php
 
-// $domain = 'http://localhost/altranstravel.web.id/';
-$domain = 'https://altranstravel.web.id/';
-$brand = 'AL Trans Travel';
+$domain = 'http://localhost/travel2saudara.web.id/';
+// $domain = 'https://travel2saudara.web.id/';
+$brand = 'Travel 2 Bersaudara';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.jpg';
-$title = $brand . " Pangandaran, Ciamis, Tasik, Garut, Bandung & Jabodetabek";
-$desc = $brand . " akan membantu anda melakukan travel dari Pangandaran, Ciamis, Tasik, Garut, Bandung ke Jabodetabek dengan harga murah dan terjangkau.";
-$telp = '0838-4606-3835';
+$title = $brand . " Travel Cianjur & Sukabumi ke Jabodetabek";
+$desc = $brand . " menawarkan jasa travel untuk rute Travel Cianjur dan Sukabumi tujuan Jabodetabek";
+$telp = '0858-7170-0158';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Sadananya, Kec. Sadananya, Kabupaten Ciamis, Jawa Barat 46256, Indonesia';
+$alamat = '443C+6XG Peuteuycondong, Cianjur Regency, West Java';
 
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7711643901207!2d108.31950317410771!3d-7.266862492740023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f5b7818e9a611%3A0xd88b5c9b589e3cf5!2sP8MC%2B7R4%2C%20Sadananya%2C%20Kec.%20Sadananya%2C%20Kabupaten%20Ciamis%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1761023844015!5m2!1sid!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3960.9470233592724!2d107.11988837499628!3d-6.896940093102244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTMnNDkuMCJTIDEwN8KwMDcnMjAuOSJF!5e0!3m2!1sen!2sid!4v1761360770205!5m2!1sen!2sid';
 
 
 function res_telp($telp)
@@ -52,73 +52,53 @@ $menu = [
 
 
 $rute = [
-  "Travel Pangandaran Jakarta",
-  "Travel Ciamis Jakarta",
-  "Travel Tasik Jakarta",
-  "Travel Garut Jakarta",
-  "Travel Bandung Jakarta",
 
-  "Travel Pangandaran Bogor",
-  "Travel Ciamis Bogor",
-  "Travel Tasik Bogor",
-  "Travel Garut Bogor",
-  "Travel Bandung Bogor",
+  "Travel Cianjur Jakarta",
+  "Travel Cianjur Bogor",
+  "Travel Cianjur Bekasi",
+  "Travel Cianjur Depok",
+  "Travel Cianjur Karawang",
+  "Travel Cianjur Tanggerang",
+  "Travel Cianjur Cikarang",
+  "Travel Cianjur Bandara",
 
-  "Travel Pangandaran Depok",
-  "Travel Ciamis Depok",
-  "Travel Tasik Depok",
-  "Travel Garut Depok",
-  "Travel Bandung Depok",
+  "Travel Sukabumi Jakarta",
+  "Travel Sukabumi Bogor",
+  "Travel Sukabumi Bekasi",
+  "Travel Sukabumi Depok",
+  "Travel Sukabumi Karawang",
+  "Travel Sukabumi Tanggerang",
+  "Travel Sukabumi Cikarang",
+  "Travel Sukabumi Bandara",
 
-  "Travel Pangandaran Tangerang",
-  "Travel Ciamis Tangerang",
-  "Travel Tasik Tangerang",
-  "Travel Garut Tangerang",
-  "Travel Bandung Tangerang",
-
-  "Travel Pangandaran Bekasi",
-  "Travel Ciamis Bekasi",
-  "Travel Tasik Bekasi",
-  "Travel Garut Bekasi",
-  "Travel Bandung Bekasi",
 
   // PP
 
-  "Travel Jakarta Pangandaran",
-  "Travel Jakarta Ciamis",
-  "Travel Jakarta Tasik",
-  "Travel Jakarta Garut",
-  "Travel Jakarta Bandung",
+  "Travel Jakarta Cianjur",
+  "Travel Bogor Cianjur",
+  "Travel Bekasi Cianjur",
+  "Travel Depok Cianjur",
+  "Travel Karawang Cianjur",
+  "Travel Tanggerang Cianjur",
+  "Travel Cikarang Cianjur",
+  "Travel Bandara Cianjur",
 
-  "Travel Bogor Pangandaran",
-  "Travel Bogor Ciamis",
-  "Travel Bogor Tasik",
-  "Travel Bogor Garut",
-  "Travel Bogor Bandung",
+  "Travel Jakarta Sukabumi",
+  "Travel Bogor Sukabumi",
+  "Travel Bekasi Sukabumi",
+  "Travel Depok Sukabumi",
+  "Travel Karawang Sukabumi",
+  "Travel Tanggerang Sukabumi",
+  "Travel Cikarang Sukabumi",
+  "Travel Bandara Sukabumi",
 
-  "Travel Depok Pangandaran",
-  "Travel Depok Ciamis",
-  "Travel Depok Tasik",
-  "Travel Depok Garut",
-  "Travel Depok Bandung",
 
-  "Travel Tangerang Pangandaran",
-  "Travel Tangerang Ciamis",
-  "Travel Tangerang Tasik",
-  "Travel Tangerang Garut",
-  "Travel Tangerang Bandung",
-
-  "Travel Bekasi Pangandaran",
-  "Travel Bekasi Ciamis",
-  "Travel Bekasi Tasik",
-  "Travel Bekasi Garut",
-  "Travel Bekasi Bandung",
 ];
 
 $kota = [
   [
-    'Ciamis',
-    'ciamis.jpg',
+    'Cianjur',
+    'cianjur.jpg',
   ],
   [
     'Jakarta',
@@ -129,8 +109,8 @@ $kota = [
     'depok.jpg',
   ],
   [
-    'Bandung',
-    'bandung.jpg',
+    'Sukabumi',
+    'sukabumi.jpg',
   ],
 ];
 
@@ -522,7 +502,7 @@ $galeri = [
                   href="<?= $link_whatsapp ?>!"
                   class=""></a>
                 <img
-                  src="./src/img/rute-travel-al-trans-travel.jpg"
+                  src="./src/img/rute.jpg"
                   width="100%"
                   height="100%"
                   loading="lazy"
@@ -557,7 +537,7 @@ $galeri = [
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300">Tentang Kami</h2>
               <p class="desc !text-slate-300 !mb-5">
-                <?= $desc ?> Fokus pada rute <a href="https://jasatravel.web.id/rute-travel/dari-ciamis/ke-dki-jakarta/320701/31" class="underline" target="_blank">Travel Ciamis Jakarta</a> pulang pergi, via tol, 24 ja, dan bonus makan sekali. Kami hadir sebagai solusi transportasi anda dengan ebebrapa layanan yang akan membantu anda seperti:
+                <?= $desc ?> Fokus pada rute <a href="https://jasatravel.web.id/rute-travel/dari-cianjur/ke-dki-jakarta/320301/31" class="underline" target="_blank">Travel Cianjur Jakarta</a> pulang pergi, via tol, 24 ja, dan bonus makan sekali. Kami hadir sebagai solusi transportasi anda dengan ebebrapa layanan yang akan membantu anda seperti:
               </p>
               <ul class="!list-item !list-disc text-slate-300 ml-5">
                 <li>Carter Regular</li>
