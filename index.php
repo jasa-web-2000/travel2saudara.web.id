@@ -5,8 +5,8 @@ $domain = 'https://travel2saudara.web.id/';
 $brand = 'Travel 2 Bersaudara';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.jpg';
-$title = $brand . " Travel Cianjur & Sukabumi ke Jabodetabek";
-$desc = $brand . " menawarkan jasa travel untuk rute Travel Cianjur dan Sukabumi tujuan Jabodetabek";
+$title = $brand . " Travel Cianjur Sukabumi Tasik Garut ke Jabodetabek";
+$desc = $brand . " menawarkan jasa travel untuk rute Travel Cianjur Sukabumi Tasik Garut tujuan Jabodetabek";
 $telp = '0858-7170-0158';
 // $telp2 = '0857-9190-4615';
 $alamat = '443C+6XG Peuteuycondong, Cianjur Regency, West Java';
@@ -58,7 +58,7 @@ $rute = [
   "Travel Cianjur Bekasi",
   "Travel Cianjur Depok",
   "Travel Cianjur Karawang",
-  "Travel Cianjur Tanggerang",
+  "Travel Cianjur Tangerang",
   "Travel Cianjur Cikarang",
   "Travel Cianjur Bandara",
 
@@ -67,9 +67,27 @@ $rute = [
   "Travel Sukabumi Bekasi",
   "Travel Sukabumi Depok",
   "Travel Sukabumi Karawang",
-  "Travel Sukabumi Tanggerang",
+  "Travel Sukabumi Tangerang",
   "Travel Sukabumi Cikarang",
   "Travel Sukabumi Bandara",
+
+  "Travel Garut Jakarta",
+  "Travel Garut Bogor",
+  "Travel Garut Bekasi",
+  "Travel Garut Depok",
+  "Travel Garut Karawang",
+  "Travel Garut Tangerang",
+  "Travel Garut Cikarang",
+  "Travel Garut Bandara",
+
+  "Travel Tasik Jakarta",
+  "Travel Tasik Bogor",
+  "Travel Tasik Bekasi",
+  "Travel Tasik Depok",
+  "Travel Tasik Karawang",
+  "Travel Tasik Tangerang",
+  "Travel Tasik Cikarang",
+  "Travel Tasik Bandara",
 
 
   // PP
@@ -79,7 +97,7 @@ $rute = [
   "Travel Bekasi Cianjur",
   "Travel Depok Cianjur",
   "Travel Karawang Cianjur",
-  "Travel Tanggerang Cianjur",
+  "Travel Tangerang Cianjur",
   "Travel Cikarang Cianjur",
   "Travel Bandara Cianjur",
 
@@ -88,9 +106,28 @@ $rute = [
   "Travel Bekasi Sukabumi",
   "Travel Depok Sukabumi",
   "Travel Karawang Sukabumi",
-  "Travel Tanggerang Sukabumi",
+  "Travel Tangerang Sukabumi",
   "Travel Cikarang Sukabumi",
   "Travel Bandara Sukabumi",
+
+
+  "Travel Jakarta Garut",
+  "Travel Bogor Garut",
+  "Travel Bekasi Garut",
+  "Travel Depok Garut",
+  "Travel Karawang Garut",
+  "Travel Tangerang Garut",
+  "Travel Cikarang Garut",
+  "Travel Bandara Garut",
+
+  "Travel Jakarta Tasik",
+  "Travel Bogor Tasik",
+  "Travel Bekasi Tasik",
+  "Travel Depok Tasik",
+  "Travel Karawang Tasik",
+  "Travel Tangerang Tasik",
+  "Travel Cikarang Tasik",
+  "Travel Bandara Tasik",
 
 
 ];
